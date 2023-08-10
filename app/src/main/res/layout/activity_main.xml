@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <com.snapshotandroid.circleimageviewer.CustomImageView
+        android:id="@+id/profileImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:ssciv_border_color="@color/black"
+        app:ssciv_border_overlay="true"
+        app:ssciv_custom_background_color="@color/white"
+        app:ssciv_corner_radius="20dp"
+        android:src="@drawable/userdp"/>
+
+</RelativeLayout>

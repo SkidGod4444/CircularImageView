@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomImageView">
+        <attr name="ssciv_border_width" format="dimension" />
+        <attr name="ssciv_border_color" format="color" />
+        <attr name="ssciv_border_overlay" format="boolean" />
+        <attr name="ssciv_custom_background_color" format="color" />
+        <attr name="ssciv_corner_radius" format="dimension" />
+    </declare-styleable>
+</resources>
